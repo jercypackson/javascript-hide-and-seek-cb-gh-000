@@ -23,6 +23,7 @@ function deepestChild(){
     if (!next){
       return elem;
     }
+    elem = next;
   }
 
 }
