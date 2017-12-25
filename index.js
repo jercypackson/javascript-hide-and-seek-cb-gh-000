@@ -20,7 +20,7 @@ function deepestChild(){
 
   while (true){
     var next = elem.querySelector('div');
-    if (next === null){
+    if (!next){
       return elem;
     }
   }
