@@ -6,3 +6,4 @@ function nestedTarget(){
   var nested = document.getElementById('nested');
   return nested.querySelector('.target');
 }
+
