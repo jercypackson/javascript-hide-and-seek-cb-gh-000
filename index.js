@@ -14,3 +14,15 @@ function increaseRankBy(n){
     ranks[i].innerHTML = parseInt(ranks[i].innerHTML) + n;
   }
 }
+
+function deepestChild(){
+  var elem = document.querySelector('div#grand-node');
+
+  while (true){
+    var next = elem.querySelector('div');
+    if (next === null){
+      return elem;
+    }
+  }
+
+}
